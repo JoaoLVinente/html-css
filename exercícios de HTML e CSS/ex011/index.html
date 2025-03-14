@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Testando as imagens.</h1>
+    <hr>
+    <picture>
+        <source media="(max-width: 530px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="Imagens/foto-m.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-g.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagen Flexível">
+    </picture>
+    <h1>
+        Testando áudio.
+    </h1>
+    <audio preload="metadata" controls>
+        <source src="happy-mistake.mp3" type="audio/mpeg">
+        <source src="happy-mistake.mp3" type="audio/ogg">
+        <source src="happy-mistake.mp3" type="audio/wav">
+        <p>
+            Seu navegador não foi capaz de rodar o áudio, mas pode baixá-lo clicando aqui:
+            <br>
+            <a href="happy-mistake.mp3" download="happy-mistake.mp3" type="audio/mpeg">Baixar áudio</a>
+        </p>
+    </audio>
+</body>
+</html>
