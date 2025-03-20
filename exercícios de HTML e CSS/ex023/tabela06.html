@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com Overflow Horizontal</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        thead th {
+            background-color: gray;
+            color: white;
+        }
+
+        /* Adicionando estilo para o contêiner da tabela com overflow */
+        .table-container {
+            width: 100%;
+            overflow-x: auto; /* Permite rolagem horizontal */
+            margin-bottom: 20px;
+        }
+
+        /* Estilo das linhas de título */
+        .media {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Área</th>
+                    <th rowspan="2">Disciplinas</th>
+                    <th colspan="3">Notas</th>
+                    <th rowspan="2">Média</th>
+                    <th rowspan="2">Status</th>
+                    <th rowspan="2">Comentários</th>
+                </tr>
+                <tr>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Exatas</td>
+                    <td>Matemática</td>
+                    <td>8.5</td>
+                    <td>7.5</td>
+                    <td>9.0</td>
+                    <td>8.3</td>
+                    <td>Aprovado</td>
+                    <td>Bom desempenho</td>
+                </tr>
+                <tr>
+                    <td>Exatas</td>
+                    <td>Física</td>
+                    <td>6.0</td>
+                    <td>7.0</td>
+                    <td>6.5</td>
+                    <td>6.5</td>
+                    <td>Aprovado</td>
+                    <td>Precisa melhorar</td>
+                </tr>
+                <tr>
+                    <td>Exatas</td>
+                    <td>Química</td>
+                    <td>7.0</td>
+                    <td>8.0</td>
+                    <td>7.5</td>
+                    <td>7.5</td>
+                    <td>Aprovado</td>
+                    <td>Bom, mas pode melhorar</td>
+                </tr>
+                <tr>
+                    <td>Humanas</td>
+                    <td>História</td>
+                    <td>9.0</td>
+                    <td>8.5</td>
+                    <td>9.5</td>
+                    <td>9.0</td>
+                    <td>Aprovado</td>
+                    <td>Excelente</td>
+                </tr>
+                <tr>
+                    <td>Humanas</td>
+                    <td>Geografia</td>
+                    <td>7.5</td>
+                    <td>7.0</td>
+                    <td>6.5</td>
+                    <td>7.0</td>
+                    <td>Aprovado</td>
+                    <td>Precisa de mais atenção</td>
+                </tr>
+                <tr>
+                    <td>Humanas</td>
+                    <td>Filosofia</td>
+                    <td>9.5</td>
+                    <td>8.0</td>
+                    <td>9.0</td>
+                    <td>8.8</td>
+                    <td>Aprovado</td>
+                    <td>Ótima participação</td>
+                </tr>
+                <tr>
+                    <td>Exatas</td>
+                    <td>Biologia</td>
+                    <td>6.5</td>
+                    <td>7.5</td>
+                    <td>7.0</td>
+                    <td>7.0</td>
+                    <td>Aprovado</td>
+                    <td>Precisa de mais estudo</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

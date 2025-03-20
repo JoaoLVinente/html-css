@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        td, th {
+            border: 1px solid black;
+            width: 150px;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightblue;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            background-color: gray;
+            top: -1px;
+        }
+
+        caption {
+            font-weight: bold;
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Estados da região Norte e suas respectivas populações</caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.664.306</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4.281.209</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.746.227</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num"> 1.577.342</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">880.631 </td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">802.837</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">716.793</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total</th>
+            <th>18.669.345</th>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad illo velit rerum ex, quia harum quasi placeat doloremque rem sed! Dicta eos itaque explicabo et quibusdam, provident beatae quidem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi debitis accusamus consectetur suscipit et numquam. Illo, voluptatibus. Impedit, nihil quaerat. Cumque, a odio expedita cupiditate inventore dignissimos nulla. Temporibus, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni eius voluptate incidunt aliquam sequi libero consequuntur illo recusandae error at repudiandae alias placeat, tenetur, deserunt similique harum cum maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad illo velit rerum ex, quia harum quasi placeat doloremque rem sed! Dicta eos itaque explicabo et quibusdam, provident beatae quidem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi debitis accusamus consectetur suscipit et numquam. Illo, voluptatibus. Impedit, nihil quaerat. Cumque, a odio expedita cupiditate inventore dignissimos nulla. Temporibus, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni eius voluptate incidunt aliquam sequi libero consequuntur illo recusandae error at repudiandae alias placeat, tenetur, deserunt similique harum cum maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad illo velit rerum ex, quia harum quasi placeat doloremque rem sed! Dicta eos itaque explicabo et quibusdam, provident beatae quidem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi debitis accusamus consectetur suscipit et numquam. Illo, voluptatibus. Impedit, nihil quaerat. Cumque, a odio expedita cupiditate inventore dignissimos nulla. Temporibus, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni eius voluptate incidunt aliquam sequi libero consequuntur illo recusandae error at repudiandae alias placeat, tenetur, deserunt similique harum cum maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad illo velit rerum ex, quia harum quasi placeat doloremque rem sed! Dicta eos itaque explicabo et quibusdam, provident beatae quidem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi debitis accusamus consectetur suscipit et numquam. Illo, voluptatibus. Impedit, nihil quaerat. Cumque, a odio expedita cupiditate inventore dignissimos nulla. Temporibus, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni eius voluptate incidunt aliquam sequi libero consequuntur illo recusandae error at repudiandae alias placeat, tenetur, deserunt similique harum cum maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad illo velit rerum ex, quia harum quasi placeat doloremque rem sed! Dicta eos itaque explicabo et quibusdam, provident beatae quidem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi debitis accusamus consectetur suscipit et numquam. Illo, voluptatibus. Impedit, nihil quaerat. Cumque, a odio expedita cupiditate inventore dignissimos nulla. Temporibus, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni eius voluptate incidunt aliquam sequi libero consequuntur illo recusandae error at repudiandae alias placeat, tenetur, deserunt similique harum cum maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad illo velit rerum ex, quia harum quasi placeat doloremque rem sed! Dicta eos itaque explicabo et quibusdam, provident beatae quidem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi debitis accusamus consectetur suscipit et numquam. Illo, voluptatibus. Impedit, nihil quaerat. Cumque, a odio expedita cupiditate inventore dignissimos nulla. Temporibus, ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni eius voluptate incidunt aliquam sequi libero consequuntur illo recusandae error at repudiandae alias placeat, tenetur, deserunt similique harum cum maiores.</p>
+</body>
+</html>
