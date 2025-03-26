@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        .botao {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select, Datalist e Textarea</h1>
+    <h2>Selecione seu Estado de origem</h2>
+    <form action="cadastro.php" method="post">
+        <select name="estados" id="iestados">
+            <optgroup label="Região Norte">
+                <option value="PA">Pará</option>
+                <option value="AM">Amazonas</option>
+                <option value="AP">Amapá</option>
+                <option value="RR">Roraima</option>
+                <option value="RO">Rondônia</option>
+                <option value="AC">Acre</option>
+            </optgroup>
+            <optgroup label="Região Sudeste">
+                <option value="SP" selected>São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+        </select>
+        <h2>Coloque sua profissão</h2>
+        <label for="iprof">Profissão:</label>
+        <input type="text" name="prof" id="iprof" list="list">
+        <datalist id="list">
+            <option value="ADM">Administrador</option>
+            <option value="MED">Médico</option>
+            <option value="ENF">Enfermeiro</option>
+            <option value="CONT">Contador</option>
+            <option value="PROG">Programador</option>
+            <option value="VEND">Vendedor</option>
+            <option value="MEC">Mecânico</option>
+        </datalist>
+            <h2>Deixe uma mensagem aqui abaixo</h2>
+            <label for="imsg"></label>
+            <textarea name="msg" id="imsg"         cols="30" rows="10">
+        </textarea>
+        <br>
+        <input type="submit" value="Enviar" class="botao">
+        <input type="reset" value="Limpar" class="botao">
+    </form>
+    
+</body>
+</html>
