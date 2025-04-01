@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+    span#botao {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    li {
+        display: inline-block;
+        background-color: rgb(86, 86, 86);
+    }
+
+    ul {
+        background-color: rgb(152, 152, 152);
+    }    
+
+    main {
+        width: 768px;
+        padding: 10px 5px 10px 5px;
+    }
+
+}    
