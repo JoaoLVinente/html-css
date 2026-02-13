@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando o grow e o shrink</title>
+    <style>
+        section {
+            display: flex;
+            background-color: lightsalmon;
+        }
+
+
+        .item {
+            background-color: skyblue;
+            flex-basis: 250px;
+            text-align: center;
+            border: 2px solid black;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="item">
+                <p>
+                    A
+                </p>
+            </div>
+            <div class="item">
+                <p>
+                    B
+                </p>
+            </div>
+            <div class="item">
+                <p>
+                    C
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

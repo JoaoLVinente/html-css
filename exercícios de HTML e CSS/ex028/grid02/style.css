@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    border: 5px dashed red;
+    grid-template: repeat(3, auto) / repeat(3, auto);
+    gap: 10px;
+    width: 1500px;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+    place-content: normal normal;
+    place-items: normal normal;
+    grid-auto-flow: column;
+}
+
+.item {
+    border: 5px dashed blue;
+    text-align: center;
+}

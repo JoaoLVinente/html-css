@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    border: 3px dashed blue;
+    height: 300px;
+    grid-template:repeat(3, auto) / repeat(4, auto);
+    gap: 10px;
+}
+
+.caixa01 {
+    border: 2px dashed red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.caixa02 {
+    border: 2px dashed green;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.caixa03 {
+    border: 2px dashed purple;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
